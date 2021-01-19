@@ -15,5 +15,6 @@ Script 7: CouchDB a MongoDB Atlas
 Se accede a couch db mediante un url donde se indica el usuario, contraseña y puerto se localiza la base que se va a enviar a mongodb atlas, para acceder a mongo atlas es necesario registrarse y crear de antemano la base para facilitar el guardado, el acceso de esa base se lo consigue siguiendo los pasos de creacion donde indicamos la version con la que estamos trabajando, una vez obtenido el enlace se van traspasando los datos mediante un bucle for que analiza el id a fin de evitar documentos repetidos en mongo atlas.
 Script 8: MongoDB a MongoDB Atlas
 Se accede a couch db el host y se especifica la base que se va a enviar a mongodb atlas, para acceder a mongo atlas es necesario registrarse y crear de antemano la base para facilitar el guardado, el acceso de esa base se lo consigue siguiendo los pasos de creacion donde indicamos la version con la que estamos trabajando, una vez obtenido el enlace se van traspasando los datos mediante un bucle for que analiza el id a fin de evitar documentos repetidos en mongo atlas.
-Script 9: 
-Script 10: 
+Script 9: Atlas a CSV
+Para empezar se tomando los datos de la base examen en mong atlas, una vez que se tenga esa base con sus respectivas colecciones, cada documento se va  a ir guardando en una variable auxilar de tipo arreglo, este arreglo va irse incrementando conforme vaya leyendo los datos de la base y finalmente gracias  a la funcion to csv del data frame podemos convertir el contenido del auxiliar en un csv.
+
